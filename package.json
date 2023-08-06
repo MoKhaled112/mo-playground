@@ -14,8 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "node decide-build-options.js",
-    "build": "npm install",
+    "build": "npm install --force",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
