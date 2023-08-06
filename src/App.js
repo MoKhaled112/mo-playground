@@ -22,9 +22,8 @@ function App() {
       </header>
       ReactDOM.render(
       <MessengerCustomerChat
-        pageId="<PAGE_ID>"
-        appId="<APP_ID>"
-        htmlRef="<REF_STRING>"
+        pageId="100005763781061"
+        appId="6402333523181219"
       />
       , document.getElementById('demo'), );
     </div>
