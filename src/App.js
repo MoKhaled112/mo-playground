@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 
 import logo from "./logo.svg";
@@ -20,14 +22,13 @@ function App() {
           Learn React
         </a>
       </header>
-      ReactDOM.render(
-      <MessengerCustomerChat
-        pageId="100005763781061"
-        appId="6402333523181219"
-      />
-      , document.getElementById('demo'), );
     </div>
   );
 }
+
+ReactDOM.render(
+  <MessengerCustomerChat pageId="100005763781061" appId="6402333523181219" />,
+  document.getElementById("demo")
+);
 
 export default App;
